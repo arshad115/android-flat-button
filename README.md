@@ -48,7 +48,7 @@ If the default values of custom attribues did not meet your requirement, you can
 ```xml
 <info.hoang8f.widget.FButton
     ...
-   fbutton:buttonColor="@color/color_concrete"
+   fbutton:fButtonColor="@color/color_concrete"
    fbutton:shadowColor="@color/color_asbestos"
    fbutton:shadowEnabled="true"
    fbutton:shadowHeight="5dp"
@@ -56,6 +56,8 @@ If the default values of custom attribues did not meet your requirement, you can
     ...
      />
 ```
+
+#### Note that buttonColor is changed to fButtonColor
 
 ### via code (sample)
 ```java
